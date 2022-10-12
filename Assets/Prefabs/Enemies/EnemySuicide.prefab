@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4485087377799879064
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 883048843, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a7f85c9edd981ed40a075957c7c691e7, type: 2}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7015775
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553489, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553490, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1417260433, guid: 10c1d50eebe660c46886cb20a43433c9, type: 3}
+    - target: {fileID: 7084099473063553491, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_Name
+      value: EnemySuicide
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553501, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553501, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: pathfinder
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553501, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: sideCannonBallPool
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473063553501, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: frontalCannonBallPool
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7084099473419702655, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7084099473063553501, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+--- !u!1 &6661384346427306059 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7084099473063553491, guid: 0d708fa6cab3c0942af53409f2c921e2, type: 3}
+  m_PrefabInstance: {fileID: 4485087377799879064}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &707717386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6661384346427306059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27d0d4c776c17644864cc819c22e412, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  life: 3
+  movementMode: 0
+  acceleration: 1
+  maxSpeed: 4
+  rotationMode: 1
+  rotationSpeed: 100
+  frontalCannonBallPool: {fileID: 0}
+  frontalCannonDamage: 1
+  frontalCannonCooldown: 1
+  frontalCannonFirepoint: {fileID: 0}
+  sideCannonBallPool: {fileID: 0}
+  sideCannonDamagePerShot: 1
+  sideCannonCooldown: 2
+  sideCannonShotsCount: 3
+  sideCannonTotalSpread: 30
+  pathfinder: {fileID: 0}
+  player: {fileID: 0}
+  playerOnSight: 0
+  updatePathInterval: 2
+  pathFinderStatus: 0
+  desiredDistanceFromPlayer: 0.2
+  hitDamage: 1
+  deathEffect: {fileID: 122879931882961665, guid: f57a3c7d98ef2744e934a4ae80aa6fa5, type: 3}
